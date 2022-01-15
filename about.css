@@ -1,0 +1,39 @@
+    *{
+    	margin: 0px;
+    	padding: 0px;
+    	box-sizing: border-box;
+    }
+    .navbar{
+    	background: transparent;
+    }
+    ul li a{
+       text-transform: capitalize;
+       text-decoration: none;
+       font-size: 20px;
+       font-weight: 600;
+       color: red;
+    }
+    ul li a:hover{
+        color: red!important;
+        background:white;
+        display: block;
+        border: 1px ;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .shopping{
+        font-size: medium;
+        font-weight: 500;
+        font-family: cursive;
+        color: darkslateblue;
+    }
+    /*//////footer////*/
+    .footer{
+    	height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: auto;
+    }
